@@ -1,0 +1,25 @@
+.page {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas:
+    "header"
+    "content"
+    "footer";
+  min-height: 100vh;
+
+  &-header {
+    grid-area: header;
+    background-color: rgb(165, 240, 44);
+  }
+
+  &-content {
+    grid-area: content;
+    background-color: rgb(153, 14, 141);
+  }
+
+  &-footer {
+    grid-area: footer;
+    background-color: rgb(81, 91, 177);
+  }
+}
+
