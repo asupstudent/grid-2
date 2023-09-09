@@ -494,6 +494,7 @@ html {
 body {
   min-width: 1440px;
   background-color: #ffffff;
+  counter-reset: section-counter;
 }
 
 a {
