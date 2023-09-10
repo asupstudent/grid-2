@@ -41,51 +41,57 @@
     <main class="page__content">
       <section class="welcome">
         <div class="container">
-          <h1 class="title-h1">Загородные дома в аренду</h1>
-          <p class="welcome__city">Санкт-Петербург</p>
-          <p class="welcome__text">Отдохните от&nbsp;суеты мегаполиса в&nbsp;уютном тёплом доме в&nbsp;окружении экологически чистых лесов, рек и&nbsp;озёр</p>
-          <a class="welcome__button button" href="#">Арендовать дом</a>
-          <ul class="social-media">
-            <li class="social-media__item">
-              <a class="social-media__link social-media__link--facebook" href="#">
-                <span class="visually-hidden">Facebook</span>
-              </a>
-            </li>
-            <li class="social-media__item">
-              <a class="social-media__link social-media__link--instagram" href="#">
-                <span class="visually-hidden">Instagram</span>
-              </a>
-            </li>
-            <li class="social-media__item">
-              <a class="social-media__link social-media__link--vk" href="#">
-                <span class="visually-hidden">VK</span>
-              </a>
-            </li>
-          </ul>
-          <img class="welcome__img" src="img/intro-welcome.jpg" alt="Загородный дом" width="795" height="496">
-          <button class="welcome__slider-button welcome__slider-button--prev" type="button"><span class="visually-hidden">Назад</span></button>
-          <button class="welcome__slider-button welcome__slider-button--next" type="button"><span class="visually-hidden">Вперёд</span></button>
-          <p class="welcome__slider-page"><span>1</span>/<span>8</span></p>
+          <div class="welcome__content">
+            <h1 class="welcome__title title-h1">Загородные дома в аренду</h1>
+            <p class="welcome__city">Санкт-Петербург</p>
+            <p class="welcome__text">Отдохните от&nbsp;суеты мегаполиса в&nbsp;уютном тёплом доме в&nbsp;окружении экологически чистых лесов, рек и&nbsp;озёр</p>
+            <a class="welcome__button button" href="#">Арендовать дом</a>
+            <ul class="social-media">
+              <li class="social-media__item">
+                <a class="social-media__link social-media__link--facebook" href="#">
+                  <span class="visually-hidden">Facebook</span>
+                </a>
+              </li>
+              <li class="social-media__item">
+                <a class="social-media__link social-media__link--instagram" href="#">
+                  <span class="visually-hidden">Instagram</span>
+                </a>
+              </li>
+              <li class="social-media__item">
+                <a class="social-media__link social-media__link--vk" href="#">
+                  <span class="visually-hidden">VK</span>
+                </a>
+              </li>
+            </ul>
+            <img class="welcome__img" src="img/intro-welcome.jpg" alt="Загородный дом" width="795" height="496">
+            <div class="slider-controls">
+              <button class="slider-controls__button slider-controls__button--prev" type="button"><span class="visually-hidden">Назад</span></button>
+              <button class="slider-controls__button slider-controls__button--next" type="button"><span class="visually-hidden">Вперёд</span></button>
+              <p class="slider-controls__page"><span>1</span>/<span>8</span></p>
+            </div>
+          </div>
         </div>
       </section>
-      <article class="section place">
-        <header>
-          <h2 class="title-h2">Место</h2>
-          <h3 class="title-h3">Парк отдыха на берегу Ладожского озера</h3>
-        </header>
-        <p>Отдохните в уютных деревянных домах с камином, сауной и джакузи, расположенных на берегу озера. Для любителей полного уединения есть домики и в глубине парка, в окружении вековых деревьев.</p>
-        <img src="img/article-pic1.jpg" alt="Домик в лесу" width="444" height="280">
-        <p class="article-aside-right">За счёт особой конструкции в наших домах очень тепло зимой и прохладно летом. Мы открыты для вас в любое время года!</p>
-        <p>На территории парка есть баскетбольная площадка, собственный пляж с сеткой для волейбола, прокат горных велосипедов и лодок. А зимой у нас можно взять в прокат лыжи или снегоходы и кататься по специально оборудованным трассам. Для каждого посетителя составляем индивидуальную программу развлечений и помогаем её осуществить.</p>
-        <img class="big-pic" src="img/article-pic2.jpg" alt="Мужчины играют в пляжный волейбол" width="1146" height="280">
-        <p>Около каждого коттеджа есть детская площадка с качелями и горками, а на территории парка работает детская комната. Вы сможете позволить себе любой отдых зная, что ваш ребёнок находится под присмотром опытных специалистов.</p>
-        <blockquote>Мы предлагаем не только уютные дома, большой выбор развлечений и активностей для вас и вашей семьи, но и масштабные праздники, спортивные турниры и возможность встретить новых друзей.</blockquote>
-        <p>Несмотря на отдалённость от населённых пунктов, вы не будете чувствовать себя оторванными от цивилизации. Все наши дома оборудованы высокоскоростными точками доступа Wi-Fi и домашними кинотеатрами с подпиской Netflix.</p>
-        <p class="article-aside-left">Вы можете подписаться на рассылку и узнавать обо всех акциях, скидках, и выгодных предложениях.</p>
-        <p>Приезжайте к нам на месяц, всё лето или зиму — на длительную аренду действуют хорошие скидки! Забронируйте дом прямо сейчас, для этого достаточно заказать звонок, а отменить бронь вы сможете в любое время совершенно бесплатно.</p>
-        <a class="button" href="#">Бесплатно забронировать</a>
+      <article class="place">
+        <div class="container">
+          <header class="place__header">
+            <h2 class="place__title-h2 title-h2">Место</h2>
+            <h3 class="place__title-h3 title-h3">Парк отдыха на берегу Ладожского озера</h3>
+          </header>
+          <!-- <p>Отдохните в уютных деревянных домах с камином, сауной и джакузи, расположенных на берегу озера. Для любителей полного уединения есть домики и в глубине парка, в окружении вековых деревьев.</p>
+          <img src="img/article-pic1.jpg" alt="Домик в лесу" width="444" height="280">
+          <p class="article-aside-right">За счёт особой конструкции в наших домах очень тепло зимой и прохладно летом. Мы открыты для вас в любое время года!</p>
+          <p>На территории парка есть баскетбольная площадка, собственный пляж с сеткой для волейбола, прокат горных велосипедов и лодок. А зимой у нас можно взять в прокат лыжи или снегоходы и кататься по специально оборудованным трассам. Для каждого посетителя составляем индивидуальную программу развлечений и помогаем её осуществить.</p>
+          <img class="big-pic" src="img/article-pic2.jpg" alt="Мужчины играют в пляжный волейбол" width="1146" height="280">
+          <p>Около каждого коттеджа есть детская площадка с качелями и горками, а на территории парка работает детская комната. Вы сможете позволить себе любой отдых зная, что ваш ребёнок находится под присмотром опытных специалистов.</p>
+          <blockquote>Мы предлагаем не только уютные дома, большой выбор развлечений и активностей для вас и вашей семьи, но и масштабные праздники, спортивные турниры и возможность встретить новых друзей.</blockquote>
+          <p>Несмотря на отдалённость от населённых пунктов, вы не будете чувствовать себя оторванными от цивилизации. Все наши дома оборудованы высокоскоростными точками доступа Wi-Fi и домашними кинотеатрами с подпиской Netflix.</p>
+          <p class="article-aside-left">Вы можете подписаться на рассылку и узнавать обо всех акциях, скидках, и выгодных предложениях.</p>
+          <p>Приезжайте к нам на месяц, всё лето или зиму — на длительную аренду действуют хорошие скидки! Забронируйте дом прямо сейчас, для этого достаточно заказать звонок, а отменить бронь вы сможете в любое время совершенно бесплатно.</p>
+          <a class="button" href="#">Бесплатно забронировать</a> -->
+        </div>
       </article>
-      <section class="catalog">
+      <!-- <section class="catalog">
         <header class="catalog__header">
           <h2 class="title-h2">Каталог</h2>
           <h3 class="title-h3">Дома для аренды</h3>
@@ -183,10 +189,10 @@
           <button class="button" type="submit">Отправить</button>
         </form>
         <img class="feedback-img" src="img/form-pic.jpg" alt="Лодка на озере" width="708" height="737">
-      </section>
+      </section> -->
     </main>
     <footer class="page__footer">
-      <a class="page-footer-logo" href="#">
+      <!-- <a class="page-footer-logo" href="#">
         <img src="img/logo-footer.svg" alt="Логотип компании Alt Home" width="97" height="30">
       </a>
       <ul class="page-footer-nav">
@@ -200,7 +206,7 @@
           <a class="page-footer-nav-link page-link" href="#">Оставить заявку</a>
         </li>
       </ul>
-      <p class="copyright">© Сделано в <a class="page-link" href="https://htmlacademy.ru/">HTML Academy</a></p>
+      <p class="copyright">© Сделано в <a class="page-link" href="https://htmlacademy.ru/">HTML Academy</a></p> -->
     </footer>
   </body>
 </html>
