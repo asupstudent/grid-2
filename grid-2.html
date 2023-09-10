@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
   <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
@@ -7,65 +7,71 @@
     <link rel="stylesheet" href="css/style.min.css">
     <title>Загородные дома в аренду</title>
   </head>
-  <body class="page">
-    <header class="page-header">
+  <body class="page__body">
+    <header class="page__header header">
       <div class="container">
-        <nav class="page-nav">
-          <ul class="site-nav">
-            <li class="site-nav-item">
-              <a class="site-nav-link page-link" href="#">Место</a>
+        <nav class="header__main-nav">
+          <ul class="header__site-nav site-nav">
+            <li class="site-nav__item">
+              <a class="site-nav__link link" href="#">Место</a>
             </li>
-            <li class="site-nav-item">
-              <a class="site-nav-link page-link" href="#">Каталог</a>
+            <li class="site-nav__item">
+              <a class="site-nav__link link" href="#">Каталог</a>
             </li>
-            <li class="site-nav-item">
-              <a class="site-nav-link page-link" href="#">Оставить заявку</a>
+            <li class="site-nav__item">
+              <a class="site-nav__link link" href="#">Оставить заявку</a>
             </li>
           </ul>
-          <a class="logo" href="#">
-            <img src="img/logo.svg" alt="Логотип компании Alt Home" width="97" height="30">
-          </a>
-          <a class="search" href="#">
-            <span class="visually-hidden">Поиск</span>
-          </a>
-          <a class="page-link" href="#">Вход</a>&nbsp;или&nbsp;<a class="page-link" href="#">регистрация</a>
+          <div class="header__logo logo">
+            <a class="logo__link" href="#">
+              <img class="logo__img" src="img/logo.svg" alt="Логотип компании Alt Home" width="97" height="30">
+            </a>
+          </div>
+          <div class="header__user-nav user-nav">
+            <a class="user-nav__search" href="#">
+              <span class="visually-hidden">Поиск</span>
+            </a>
+            <a class="user-nav__link link" href="#">Вход</a>
+            <span class="user-nav__text">или</span>
+            <a class="user-nav__link link" href="#">регистрация</a>
+          </div>
         </nav>
       </div>
     </header>
-    <main class="page-content">
-      <div class="welcome">
-        <h1>Загородные дома в аренду</h1>
-        <p class="welcome-city">Санкт-Петербург</p>
-        <p class="welcome-text">Отдохните от&nbsp;суеты мегаполиса в&nbsp;уютном тёплом доме в&nbsp;окружении экологически чистых лесов, рек и&nbsp;озёр</p>
-        <a class="button" href="#">Арендовать дом</a>
-        <ul class="social-media">
-          <li class="social-media-item">
-            <a class="social-media-link social-media-link-facebook" href="#">
-              <span class="visually-hidden">Facebook</span>
-            </a>
-          </li>
-          <li class="social-media-item">
-            <a class="social-media-link social-media-link-instagram" href="#">
-              <span class="visually-hidden">Instagram</span>
-            </a>
-          </li>
-          <li class="social-media-item">
-            <a class="social-media-link social-media-link-vk" href="#">
-              <span class="visually-hidden">VK</span>
-            </a>
-          </li>
-        </ul>
-        <div class="welcome-img-container">
-          <img src="img/intro-welcome.jpg" alt="Загородный дом" width="795" height="496">
+    <main class="page__content">
+      <section class="welcome">
+        <div class="container">
+          <h1 class="title-h1">Загородные дома в аренду</h1>
+          <p class="welcome__city">Санкт-Петербург</p>
+          <p class="welcome__text">Отдохните от&nbsp;суеты мегаполиса в&nbsp;уютном тёплом доме в&nbsp;окружении экологически чистых лесов, рек и&nbsp;озёр</p>
+          <a class="welcome__button button" href="#">Арендовать дом</a>
+          <ul class="social-media">
+            <li class="social-media__item">
+              <a class="social-media__link social-media__link--facebook" href="#">
+                <span class="visually-hidden">Facebook</span>
+              </a>
+            </li>
+            <li class="social-media__item">
+              <a class="social-media__link social-media__link--instagram" href="#">
+                <span class="visually-hidden">Instagram</span>
+              </a>
+            </li>
+            <li class="social-media__item">
+              <a class="social-media__link social-media__link--vk" href="#">
+                <span class="visually-hidden">VK</span>
+              </a>
+            </li>
+          </ul>
+          <img class="welcome__img" src="img/intro-welcome.jpg" alt="Загородный дом" width="795" height="496">
+          <button class="welcome__slider-button welcome__slider-button--prev" type="button"><span class="visually-hidden">Назад</span></button>
+          <button class="welcome__slider-button welcome__slider-button--next" type="button"><span class="visually-hidden">Вперёд</span></button>
+          <p class="welcome__slider-page"><span>1</span>/<span>8</span></p>
         </div>
-        <button class="slider-button slider-button-prev" type="button"><span class="visually-hidden">Назад</span></button>
-        <button class="slider-button slider-button-next" type="button"><span class="visually-hidden">Вперёд</span></button>
-        <p class="slider-page"><span>1</span>/<span>8</span></p>
-      </div>
+      </section>
       <article class="section place">
         <header>
-          <h2>Место</h2>
-          <h3>Парк отдыха на берегу Ладожского озера</h3>
+          <h2 class="title-h2">Место</h2>
+          <h3 class="title-h3">Парк отдыха на берегу Ладожского озера</h3>
         </header>
         <p>Отдохните в уютных деревянных домах с камином, сауной и джакузи, расположенных на берегу озера. Для любителей полного уединения есть домики и в глубине парка, в окружении вековых деревьев.</p>
         <img src="img/article-pic1.jpg" alt="Домик в лесу" width="444" height="280">
@@ -79,10 +85,10 @@
         <p>Приезжайте к нам на месяц, всё лето или зиму — на длительную аренду действуют хорошие скидки! Забронируйте дом прямо сейчас, для этого достаточно заказать звонок, а отменить бронь вы сможете в любое время совершенно бесплатно.</p>
         <a class="button" href="#">Бесплатно забронировать</a>
       </article>
-      <section class="section catalog">
-        <header class="section-centered-heading">
-          <h2>Каталог</h2>
-          <h3>Дома для аренды</h3>
+      <section class="catalog">
+        <header class="catalog__header">
+          <h2 class="title-h2">Каталог</h2>
+          <h3 class="title-h3">Дома для аренды</h3>
         </header>
         <div class="card-item">
           <img class="card-pic" src="img/home-pic-1.jpg" alt="Современная классика" width="327" height="220">
@@ -179,7 +185,7 @@
         <img class="feedback-img" src="img/form-pic.jpg" alt="Лодка на озере" width="708" height="737">
       </section>
     </main>
-    <footer class="page-footer">
+    <footer class="page__footer">
       <a class="page-footer-logo" href="#">
         <img src="img/logo-footer.svg" alt="Логотип компании Alt Home" width="97" height="30">
       </a>
