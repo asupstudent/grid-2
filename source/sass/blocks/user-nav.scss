@@ -1,0 +1,29 @@
+.user-nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 561px;
+
+  &__text {
+    font-weight: 400;
+    margin-left: 5px;
+    margin-right: 3px;
+  }
+
+  &__search {
+    display: block;
+    width: 16px;
+    height: 16px;
+    margin: 5px 64px 7px 0;
+    background-image: url("../img/search.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 16px 16px;
+  }
+
+  &__search span {
+    position: relative;
+    top: -8px;
+    left: 22px;
+  }
+}
