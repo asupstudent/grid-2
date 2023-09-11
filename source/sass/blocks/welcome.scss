@@ -9,7 +9,11 @@
     grid-column-gap: 24px;
   }
 
-  &__title {
+  & h1 {
+    margin: 0;
+    font-size: 44px;
+    line-height: 62px;
+    letter-spacing: -0.1px;
     grid-area: 2 / 2 / 3 / 8;
     z-index: 1;
   }
@@ -36,7 +40,6 @@
 
   &__button {
     grid-area: 4 / 2 / 5 / 4;
-    margin-right: 6px;
     margin-bottom: 90px;
   }
 

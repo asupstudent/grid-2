@@ -17,7 +17,7 @@
 
 // Blocks
 // ---------------------------------
-
+@import "blocks/section";
 @import "blocks/page";
 @import "blocks/header";
 @import "blocks/site-nav";
@@ -25,12 +25,10 @@
 @import "blocks/link";
 @import "blocks/button";
 @import "blocks/welcome";
-@import "blocks/title-h1";
-@import "blocks/title-h2";
-@import "blocks/title-h3";
 @import "blocks/catalog";
 @import "blocks/social-media";
 @import "blocks/slider-controls";
+@import "blocks/place";
 
 // ---------------------------------
 
