@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* stylelint-disable */
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
@@ -1005,15 +1006,28 @@ button,
   counter-increment: section-counter-pseudo;
   content: "0" counter(section-counter-pseudo);
   position: absolute;
-  left: 0;
-  top: 0;
+  left: 146px;
+  top: 100px;
   font-weight: 900;
   font-size: 65px;
   line-height: 65px;
   color: #333333;
 }
 .place::after {
+  content: "Место";
   position: absolute;
+  left: 145px;
+  top: 163px;
+  font-weight: 900;
+  font-size: 65px;
+  line-height: 65px;
+  color: #333333;
+  -webkit-writing-mode: vertical-lr;
+      -ms-writing-mode: tb-lr;
+          writing-mode: vertical-lr;
+  -webkit-transform: scale(-1, -1) translateY(-40px);
+      -ms-transform: scale(-1, -1) translateY(-40px);
+          transform: scale(-1, -1) translateY(-40px);
 }
 .place header {
   -ms-grid-column: 5;

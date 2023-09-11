@@ -10,8 +10,8 @@
     counter-increment: section-counter-pseudo;
     content: "0" counter(section-counter-pseudo);
     position: absolute;
-    left: 0;
-    top: 0;
+    left: 146px;
+    top: 100px;
     font-weight: 900;
     font-size: 65px;
     line-height: 65px;
@@ -19,7 +19,16 @@
   }
 
   &::after {
+    content: "Место";
     position: absolute;
+    left: 145px;
+    top: 163px;
+    font-weight: 900;
+    font-size: 65px;
+    line-height: 65px;
+    color: #333333;
+    writing-mode: vertical-lr;
+    transform: scale(-1, -1) translateY(-40px);
   }
 
   & header {
