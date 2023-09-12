@@ -1021,6 +1021,11 @@ button,
   grid-area: 1/6/6/-1;
 }
 
+.catalog {
+  padding-bottom: 140px;
+  background-color: #f2f8fb;
+}
+
 .catalog__header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1033,7 +1038,27 @@ button,
   -ms-flex-align: center;
   align-items: center;
   padding-top: 100px;
-  padding-bottom: 13px;
+  padding-bottom: 15px;
+}
+
+.catalog__list {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[12];
+  grid-template-columns: repeat(12, 1fr);
+  gap: 25px 24px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.catalog__item {
+  -ms-grid-column-span: 3;
+  grid-column: span 3;
+}
+
+.catalog__item--horizontal {
+  grid-column: 3/-3;
 }
 
 .social-media {
@@ -1238,6 +1263,84 @@ button,
 
 .place p.place__aside-left {
   margin-top: 4px;
+}
+
+.card {
+  -webkit-box-shadow: 0 0 0 1px #cfdce3;
+  box-shadow: 0 0 0 1px #cfdce3;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+  -ms-grid-rows: 220px auto;
+  grid-template-rows: 220px auto;
+  gap: 17px 24px;
+  background-color: #ffffff;
+}
+
+.card--horizontal {
+  -ms-grid-columns: 327px 1fr;
+  grid-template-columns: 327px 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.card--horizontal .card__content {
+  padding: 20px 24px 24px 0;
+}
+
+.card--horizontal .card__content dl {
+  -ms-grid-columns: 227px 225px 38px;
+  grid-template-columns: 227px 225px 38px;
+}
+
+.card__content {
+  padding: 0 24px 22px;
+}
+
+.card__content h3 {
+  margin: 0 0 8px 0;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 34px;
+  color: #333333;
+}
+
+.card__content p {
+  margin: 0 0 19px 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  opacity: 0.3;
+}
+
+.card__content dl {
+  margin: 0;
+  padding: 16px 0 0 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 86px 96px 49px;
+  grid-template-columns: 86px 96px 49px;
+  grid-column-gap: 24px;
+  border-top: 2px solid #eaf2f6;
+}
+
+.card__content dt {
+  margin: 0;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 1px;
+}
+
+.card__content dd {
+  margin: 0;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 36px;
 }
 
 /* @mixin hover-focus {
