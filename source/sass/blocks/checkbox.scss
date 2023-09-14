@@ -1,0 +1,26 @@
+.checkbox {
+  & label {
+    position: relative;
+    padding-left: 30px;
+  }
+
+  & label::before {
+    content: "";
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    border: 1px solid #cfdce3;
+    left: 0;
+    top: 0;
+  }
+
+  & input:checked + label::after {
+    content: "";
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    background-color: #06a9b3;
+    left: 3px;
+    top: 3px;
+  }
+}

@@ -1,0 +1,14 @@
+.form-item {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: min-content 44px;
+  grid-row-gap: 4px;
+
+  &--policy {
+    grid-template-rows: min-content;
+  }
+
+  &--subscribe {
+    grid-template-rows: min-content;
+  }
+}

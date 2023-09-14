@@ -180,34 +180,50 @@
           </ul>
         </div>
       </section>
-      <!-- <section class="section feedback">
+      <section class="section feedback container">
         <header>
           <h2>Оставить заявку</h2>
           <h3>Мы свяжемся с вами</h3>
         </header>
-        <form class="feedback-form" method="get" action="#">
-          <label for="titles">Обращение</label>
-          <select class="field" name="titles" id="titles">
-            <option value="Mrs" selected="selected">Мистер</option>
-            <option value="Mr">Миссис</option>
-            <option value="Ms">Мисс</option>
-          </select>
-          <label for="first-name">Имя</label>
-          <input class="field" type="text" name="first-name" id="first-name">
-          <label for="last-name">Фамилия</label>
-          <input class="field" type="text" name="last-name" id="last-name">
-          <label for="email">E-mail</label>
-          <input class="field" type="email" name="email" id="email">
-          <label for="tel">Телефон</label>
-          <input class="field" type="tel" name="tel" id="tel">
-          <input class="visually-hidden" type="checkbox" name="agreement" id="agreement">
-          <label class="text-label" for="agreement">Согласие на обработку персональных данных</label>
-          <input class="visually-hidden" type="checkbox" name="subscribe" id="subscribe" checked="checked">
-          <label class="text-label"   for="subscribe">Подписка на рассылку</label>
-          <button class="button" type="submit">Отправить</button>
+        <form class="feedback__form" method="get" action="#">
+          <div class="feedback__titles form-item">
+            <label for="titles">Обращение</label>
+            <select class="field" name="titles" id="titles">
+              <option value="Mrs" selected="selected">Мистер</option>
+              <option value="Mr">Миссис</option>
+              <option value="Ms">Мисс</option>
+            </select>
+          </div>
+          <div class="feedback__name form-item">
+            <label for="first-name">Имя</label>
+            <input class="field" type="text" name="first-name" id="first-name" placeholder="Джон">
+          </div>
+          <div class="feedback__surname form-item">
+            <label for="last-name">Фамилия</label>
+            <input class="field" type="text" name="last-name" id="last-name" placeholder="Смит">
+          </div>
+          <div class="feedback__email form-item">
+            <label for="email">E-mail</label>
+            <input class="field" type="email" name="email" id="email" placeholder="johnsmith@gmail.com">
+          </div>
+          <div class="feedback__phone form-item">
+            <label for="tel">Телефон</label>
+            <input class="field" type="tel" name="tel" id="tel" placeholder="+7 999 999-99-99">
+          </div>
+          <div class="feedback__policy form-item  form-item--policy checkbox">
+            <input class="visually-hidden" type="checkbox" name="agreement" id="agreement">
+            <label class="text-label" for="agreement">Согласие на обработку персональных данных</label>
+          </div>
+          <div class="feedback__subscribe form-item form-item--subscribe checkbox">
+            <input class="visually-hidden" type="checkbox" name="subscribe" id="subscribe" checked="checked">
+            <label class="text-label"   for="subscribe">Подписка на рассылку</label>
+          </div>
+          <div class="feedback__submit">
+            <button class="button" type="submit">Отправить</button>
+          </div>
         </form>
-        <img class="feedback-img" src="img/form-pic.jpg" alt="Лодка на озере" width="708" height="737">
-      </section> -->
+        <img class="feedback__img" src="img/form-pic.jpg" alt="Лодка на озере" width="708" height="737">
+      </section>
     </main>
     <footer class="page__footer">
       <!-- <a class="page-footer-logo" href="#">
